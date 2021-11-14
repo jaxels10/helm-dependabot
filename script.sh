@@ -1,5 +1,3 @@
 #!/bin/bash -l
-
-echo "$1"
-
+echo "This is the current dir: "
 pwd
