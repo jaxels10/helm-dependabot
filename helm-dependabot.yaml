@@ -12,5 +12,5 @@ jobs:
       - name: helm-dependabot
         uses: ./ # Uses an action in the root directory
         id: hello
-        working-directory: ./charts/${{ matrix.path }}/chart
+        working-directory: ./.github/workflows
       # Use the output from the `hello` step
