@@ -13,5 +13,6 @@ jobs:
       - name: helm-dependabot
         uses: ./ # Uses an action in the root directory
         id: hello
-        working-directory: ./tests/dummy-chart
+        with: 
+          path: tests/dummy-chart
       # Use the output from the `hello` step
