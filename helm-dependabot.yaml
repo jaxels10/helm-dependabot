@@ -14,5 +14,5 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: hello
         with: 
-          path: tests/dummy-chart
+          path: ./tests/dummy-chart
       # Use the output from the `hello` step
